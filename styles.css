@@ -1,0 +1,167 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #1a1a2e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+  max-width: 480px;
+  width: 100%;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+/* ── Logos ── */
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.logos img {
+  height: 56px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ── Heading ── */
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #141414;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #5a6578;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+/* ── Download button ── */
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #D83A1D;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.85rem 1.75rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  width: 100%;
+  justify-content: center;
+}
+
+.btn-download:hover {
+  background-color: #b83016;
+}
+
+.btn-download:active {
+  transform: scale(0.98);
+}
+
+.btn-download svg {
+  flex-shrink: 0;
+}
+
+/* ── Disclaimer ── */
+.disclaimer {
+  font-size: 0.78rem;
+  color: #8a95a3;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+/* ── Divider ── */
+hr {
+  border: none;
+  border-top: 1px solid #eaecf0;
+  margin: 1.75rem 0;
+}
+
+/* ── Steps ── */
+.steps-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #5a6578;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 1rem;
+}
+
+.steps {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  color: #3a4455;
+  line-height: 1.4;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  background-color: #D83A1D;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* ── Footer ── */
+footer {
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  color: #a0aab4;
+  text-align: center;
+}
+
+/* ── Responsive ── */
+@media (max-width: 520px) {
+  .card {
+    padding: 2rem 1.25rem;
+  }
+
+  h1 {
+    font-size: 1.45rem;
+  }
+
+  .logos img {
+    height: 44px;
+  }
+}

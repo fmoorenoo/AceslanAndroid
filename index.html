@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Descargar Aceslan</title>
+  <meta name="description" content="Descarga la aplicación Aceslan para dispositivos Android." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <main class="card">
+
+    <div class="logos" role="img" aria-label="Logos del Consorcio y del Cabildo">
+      <img src="./logo_consorcio.webp" alt="Logo Consorcio" />
+      <span class="divider" aria-hidden="true"></span>
+      <img src="./logo_cabildo.webp" alt="Logo Cabildo" />
+    </div>
+
+    <h1>Descarga Aceslan para Android</h1>
+    <p class="subtitle">
+      Accede a la aplicación oficial desde tu dispositivo Android.<br />
+      Escanea el QR o pulsa el botón para descargarla.
+    </p>
+
+    <!-- Sustituye PENDIENTE_URL_RELEASE_APK por la URL del APK publicada en GitHub Releases -->
+    <a
+      class="btn-download"
+      href="PENDIENTE_URL_RELEASE_APK"
+      download
+      aria-label="Descargar app Aceslan para Android"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2.2"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+      Descargar app
+    </a>
+
+    <p class="disclaimer">
+      Disponible para dispositivos Android. Al descargar el APK, es posible que
+      Android solicite permiso para instalar aplicaciones externas.
+    </p>
+
+    <hr />
+
+    <p class="steps-title">Cómo instalar</p>
+    <ol class="steps" aria-label="Pasos de instalación">
+      <li>
+        <span class="step-number" aria-hidden="true">1</span>
+        <span>Pulsa en &ldquo;Descargar app&rdquo;.</span>
+      </li>
+      <li>
+        <span class="step-number" aria-hidden="true">2</span>
+        <span>Abre el archivo descargado.</span>
+      </li>
+      <li>
+        <span class="step-number" aria-hidden="true">3</span>
+        <span>Permite la instalación si Android lo solicita.</span>
+      </li>
+      <li>
+        <span class="step-number" aria-hidden="true">4</span>
+        <span>Pulsa en instalar.</span>
+      </li>
+    </ol>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Aceslan</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
