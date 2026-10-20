@@ -13,7 +13,6 @@ Según la información difundida durante su presentación, el proyecto contempla
 - **Noticias y comunicados:** un canal de información relacionado con los servicios de seguridad y emergencias.
 - **Contacto directo:** una vía de comunicación entre usuarios y los servicios correspondientes.
 
-Estas son **funcionalidades presentadas para el proyecto**, no servicios disponibles actualmente.
 
 ## Sobre este repositorio
 
@@ -23,9 +22,7 @@ El **código fuente de la aplicación** se encuentra en un **repositorio privado
 
 ## Estado actual
 
-> **ACESLAN no se encuentra actualmente en funcionamiento.** Su continuidad está pendiente de que el **Consorcio de Seguridad y Emergencias de Lanzarote** decida si sigue adelante con el proyecto.
-
-La presentación pública de la versión beta no implica que el servicio esté abierto o disponible para su uso actual.
+**ACESLAN no se encuentra actualmente en producción.** Su continuidad está pendiente de que el **Consorcio de Seguridad y Emergencias de Lanzarote** decida si sigue adelante con el proyecto.
 
 ## ACESLAN en los medios
 
